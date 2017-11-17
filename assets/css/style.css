@@ -1,0 +1,310 @@
+/*CSS style elements for HEADER*/
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+	height: auto;
+	color: #777777;
+}
+
+
+h1 {
+	background-color: #ffffff;
+	border-bottom: solid #cccccc 2px;
+	width: 100%;
+	height: 75px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: relative;
+}
+
+#Name {
+	font-size: 30px;
+	background-color: #4aaaa5;
+	padding: 25px;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	left: 120px;
+	color: #ffffff;
+}
+
+.menu {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	background-color: #ffffff;
+	width: 270px;
+	margin: auto;
+	margin-top: 50px;
+	position: absolute;
+	left: 810px;
+	bottom: 20px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu_option:link,
+.menu_option:visited,
+.menu_option:active {
+	color: #777777;
+}
+
+.menu_option:hover {
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+
+#box1 {
+	width: 32%;
+	float: left;
+	border-right: solid #cccccc 2px;
+}
+
+#box2 {
+	width: 33%;
+	float: left;
+	border-right: solid #cccccc 2px;
+}
+
+
+#box3 {
+	width: 33%;
+	float: right;
+}
+
+/*CSS elements for BODY*/
+
+.wrapper {
+	clear: both;
+	background-image: url("../images/doodles.png");
+	height: 550px;
+	margin-left: -10px;
+	position: relative;
+	border-bottom: solid #4aaaa5 5px;
+}
+
+.index {
+	height: 650px;
+}
+
+.portfolio {
+	height: 1000px;
+}
+
+.contact {
+	height: 700px;
+}
+
+#main {
+	background-color: #ffffff;
+	width: 650px;
+	margin: auto;
+	margin-top: 50px;
+	position: absolute;
+	left: 120px;
+	line-height: 1.2;
+	padding: 40px 20px 20px 20px;
+	border: solid #ccc 1px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size: 30px;
+	color: #4aaaa5;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: solid #cccccc 2px;
+	margin-bottom: 20px;
+}
+
+/*CSS style elements for ABOUT page*/
+
+#bio-image {
+	float: left;
+	width: 30%;
+	height: 30%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;;
+}
+
+#bio-image:hover {
+	opacity: 1.0;
+}
+
+#text {
+	width : 60%;
+	float: right;
+	padding-right: 20px;
+}
+
+#caption_text{
+	font-size: 12px;
+	padding-left: 80px;
+}
+
+/*CSS style elements for PORTFOLIO page*/
+
+#portfolio {
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+#image1,
+#image3,
+#image5 {
+	float: left;
+	width: 45%;
+	padding-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+#image2,
+#image4,
+#image6 {
+	float: right;
+	width: 45%;
+	padding-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.profile_text_left {
+	clear: both;
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	width: 83.7%;
+	text-align: center;
+	bottom: 20px;
+}
+
+
+.profile_text_right {
+	clear: both;
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	width: 83.9%;
+	text-align: center;
+	bottom: 20px;
+}
+
+/*CSS style elements for CONTACTS page*/
+
+#contact {
+	margin-left: 20px;
+}
+
+input[type = "text"] {
+	width: 90%;
+	padding: 5px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+
+textarea{  
+	width: 90%;
+	height: 150px;
+	padding: 5px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	resize: none;
+	border: 1px solid #ccc;
+	overflow: scroll;
+}
+
+input[type = submit]{
+	background-color: #4aaaa5;
+    color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+/*CSS style elements for SIDEBAR*/
+
+#sidebar {
+	background-color: #ffffff;
+	width: 270px;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 25px;
+	position: absolute;
+	left: 810px;
+	border: solid #ccc 1px;
+	box-sizing: border-box;
+}
+
+h3 {
+	font-size: 24px;
+	color: #4aaaa5;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: solid #cccccc 2px;
+	margin-bottom: 20px;
+}
+
+#github {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 2.5px;
+	width: 27%;
+	float: left;
+}
+
+#linkedin {
+	width: 27%;
+	float: left;
+	padding-left: 5px;
+	padding-top: 2.5px;
+}
+
+#stackoverflow {
+	width: 27%;
+	float: right;
+	padding-right: 20px;
+	padding-top: 2.5px;
+}
+
+/*CSS elements for footer*/
+
+footer	{
+	clear: both;
+	background-color: #666666;
+	margin-left: -10px;
+	text-align: center;
+	height: 50px;
+	padding-top: 30px;
+}
